@@ -1,6 +1,4 @@
-# This is such a hack. 
-
-*I am so sorry.* But it works! 
+This is ugly and dirty. *I am so sorry.* But it works! 
 
 Inspired by Lecture 1 of [Brandon Sanderson's course](http://www.writeaboutdragons.com/brandon_w2012/). 
 
