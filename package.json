@@ -10,6 +10,8 @@
   "license": "MIT",
   "devDependencies": {
     "gulp-concat": "^2.4.0",
-    "gulp": "^3.8.8"
+    "gulp": "^3.8.8",
+    "jshint-stylish": "^0.4.0",
+    "gulp-jshint": "^1.8.4"
   }
 }

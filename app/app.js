@@ -11,7 +11,7 @@ var StorySlots = StorySlots || {};
 
     var newIndex = Math.floor(Math.random() * arr.length);
     el.innerHTML = arr[newIndex];
-  };
+  }
 
   arm.addEventListener('click', function(){
     spin(spinners[0], ss.settings);
@@ -21,11 +21,11 @@ var StorySlots = StorySlots || {};
   
   function toggleSpinner(){
     this.classList.toggle('locked');
-  };
+  }
 
   for(var index = 0; index < spinners.length; index++){
     var spinner = spinners[index];
     spinner.addEventListener('click', toggleSpinner.bind(spinner)); 
-  };
+  }
 
 }(StorySlots));
