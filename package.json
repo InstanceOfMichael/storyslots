@@ -9,9 +9,10 @@
   "author": "david@davidruttka.com",
   "license": "MIT",
   "devDependencies": {
-    "gulp-concat": "^2.4.0",
     "gulp": "^3.8.8",
     "jshint-stylish": "^0.4.0",
-    "gulp-jshint": "^1.8.4"
+    "gulp-jshint": "^1.8.4",
+    "gulp-uglify": "^1.0.1",
+    "gulp-concat": "^2.4.0"
   }
 }
