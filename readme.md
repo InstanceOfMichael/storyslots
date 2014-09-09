@@ -1,11 +1,13 @@
 # This is such a hack. 
 
-### I am so sorry.
+**I am so sorry.**
 
-## But it works! 
-
-- Instructions in the html.
-- PRs for more settings, plots, characters welcome.
-- Planning to add "liked that" history in addition to "locked" status, in case someone wanted more than one character or setting idea.
+### But it works! 
 
 Inspired by Lecture 1 of [Brandon Sanderson's course](http://www.writeaboutdragons.com/brandon_w2012/). 
+
+*To Do*
+- Add more settings, plots, and characters to default lists.
+- Allow users to brainstorm ad hoc items into the lists, or remove default items.
+- Support a history of items or combinations that were liked. This would allow, for example, pulling in multiple character ideas at once.
+- OMG MY EYES SOMEONE MAKE THIS PRETTY
