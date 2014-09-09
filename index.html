@@ -4,21 +4,22 @@
     <title>Story Slots!</title>
     <link href="main.css" rel="stylesheet" />
   </head>
-  <body>
+  <body ng-app="storySlots">
     
     <h3>Instructions</h3>
     
     <ul>
       <li>Spin the slot machine to get a random combination of setting, plot, and character.
       <li>Click a spinner to lock it.</li>
-    </li>
+    </ul>
 
-    <div class="machine">
-      <div class="spinner">Setting</div>
-      <div class="spinner">Plot</div>
-      <div class="spinner">Character</div>
-      <button class="arm">Spin</button>
+    <div class="machine" ng-controller="SlotsCtrl as sc">
+      <div class="spinner" ng-class="{ locked: !sc.locks[0] }" ng-click="sc.toggleLock(0)">{{sc.setting}}</div>
+      <div class="spinner" ng-class="{ locked: !sc.locks[1] }" ng-click="sc.toggleLock(1)">{{sc.plot}}</div>
+      <div class="spinner" ng-class="{ locked: !sc.locks[2] }" ng-click="sc.toggleLock(2)">{{sc.character}}</div>
+      <button class="arm" ng-click="sc.spin()">Spin</button>
     </div>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
