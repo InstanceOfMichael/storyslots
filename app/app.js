@@ -1,8 +1,6 @@
+var StorySlots = StorySlots || {};
+
 (function(ss){
-  ss.settings = ss.settings || [];
-  ss.plots = ss.plots || [];
-  ss.characters = ss.characters || [];
-  
   var arm = document.getElementsByClassName('arm')[0];
   var spinners = document.getElementsByClassName('spinner');
 
