@@ -4,6 +4,8 @@
 
 Inspired by Lecture 1 of [Brandon Sanderson's course](http://www.writeaboutdragons.com/brandon_w2012/). 
 
+This is running [here](http://www.davidruttka.com/storyslots).
+
 **To Do**
 - Add more settings, plots, and characters to default lists.
 - Allow users to brainstorm ad hoc items into the lists, or remove default items.
